@@ -1,0 +1,10 @@
+1-Como iniciar git, para eso escribo en la terminal git init
+2-Ahora queremos conectar git(que es local) con github(nube), para eso tenemos que poner git remote add 
+(nombre del remoto que normalmente es origin) y la url(del repositorio)
+3-Para agregar a la sala de espera de git usamos git add .  o git add y el nombre de la carpeta
+(en este caso explicaciongithub...)
+4-Para pasar a la piscina se usa git commit -m y un comentario 
+5-Para agregar al github se pone git push origin y main que es la rama ppal.. tambien se puede agregar otras ramas
+6-Cuando haya conflicto(que se cree repositorio con README) debo escribir 
+git pull origin main --allow-unrelated-histories
+7-Para subir los cambios se pone git push origin main 
